@@ -1,0 +1,7 @@
+/vendor/
+/wordpress/
+/wp-content/
+nginx-wordpress.conf
+/bin
+composer-setup.php
+
