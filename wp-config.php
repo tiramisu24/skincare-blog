@@ -38,7 +38,7 @@ define('WP_DEBUG', true);
 define('WP_DEBUG_DISPLAY', false);
 define('WP_DEBUG_LOG', false); // this is correct - we don't want errors to go to debug.log, but to the default destination
 
-define('DISALLOW_FILE_MODS', true);
+define('DISALLOW_FILE_MODS', false);
 
 define('DISABLE_WP_CRON', in_array(getenv('DISABLE_WP_CRON'), ['true', '1', 'yes'], true) ? true : false);
 
